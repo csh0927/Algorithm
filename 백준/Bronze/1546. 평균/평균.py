@@ -1,9 +1,9 @@
 n = int(input())
 numList = list(map(int, input().split()))
 maxN = max(numList)
-evenList = []
+newList = []
 
 for i in numList:
-    evenList.append(i/maxN * 100)
-even = sum(evenList)/n
-print(even)
+    newList.append(i/maxN * 100)
+avg = sum(newList)/n
+print(avg)
